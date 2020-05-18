@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="ParaBankPS.TestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="billPayment" invocation-numbers="1"/>
+          <include name="setUp"/>
+          <include name="findTransaction"/>
+          <include name="transferFunds" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- ParaBankPS.TestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

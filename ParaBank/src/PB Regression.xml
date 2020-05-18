@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression suite" guice-stage="DEVELOPMENT">
+  	<test name="Para bank e2e test" verbose="2">
+    	<classes>
+    		<class name="ParaBankPS.TestCases">
+      			<methods>
+      				<!-- <include name = "transferFunds"/>  
+      				<include name = "billPayment"/>
+      				<include name = "updateContact"/>
+      				<include name = "openNewAccount"/> -->
+      				<include name = "findTransaction"/>
+      			</methods>
+      		</class>	
+    	</classes>
+  	</test>
+</suite>

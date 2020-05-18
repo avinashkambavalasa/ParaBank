@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ParaBank e2e suite]" guice-stage="DEVELOPMENT">
+  <test name="Regression test(failed)">
+    <classes>
+      <class name="ParaBankPS.TestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="billPayment"/>
+          <include name="setUp"/>
+          <include name="addNewPayee"/>
+          <include name="addNewPayee"/>
+          <include name="addNewPayee"/>
+          <include name="transferFunds"/>
+        </methods>
+      </class> <!-- ParaBankPS.TestCases -->
+    </classes>
+  </test> <!-- Regression test(failed) -->
+</suite> <!-- Failed suite [ParaBank e2e suite] -->
